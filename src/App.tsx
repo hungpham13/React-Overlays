@@ -9,6 +9,7 @@ function App() {
 
     return (
         <div id='container'>
+            <h1>Overlays in ReactJS</h1>
             <img src={logo} alt='Soggy Waffle' width='300' />
             <div id='menu'>
                 <button onClick={() => setFullscreenOpen(true)}>Fullscreen</button>
